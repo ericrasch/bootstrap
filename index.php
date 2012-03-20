@@ -5,7 +5,7 @@
         <title>Bootstrap, from Twitter</title>
 
         <?php include('header-metadata.php'); ?>
-        
+
     </head>
 
     <body>
