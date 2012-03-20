@@ -4,7 +4,7 @@
                 <p>&copy; Company 2012</p>
             </footer>
 
-        </div> <!-- /container -->
+        </div> <!-- /.container -->
 
         <?php include_once('footer-scripts.php'); ?>
 
