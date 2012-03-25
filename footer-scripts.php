@@ -14,3 +14,7 @@
 <script src="assets/js/bootstrap-collapse.js"></script>
 <script src="assets/js/bootstrap-carousel.js"></script>
 <script src="assets/js/bootstrap-typeahead.js"></script>
+
+<!-- for LiveReload
+================================================== -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
