@@ -1,5 +1,7 @@
-<ul class="nav pull-right">
-    <li><a href="index.php">Starter</a></li>
-    <li><a href="index-hero.php">Hero</a></li>
-    <li><a href="index-fluid.php">Fluid</a></li>
-</ul>
+<?php wp_nav_menu( array(
+    'theme_location' => 'header_utility',
+    'container'       => false,
+    'menu_class'      => 'nav pull-right',
+    'menu_id'         => ''
+    )
+); ?>

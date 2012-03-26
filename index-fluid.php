@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php get_header(); ?>
 
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
@@ -85,4 +85,4 @@
                 </div><!--/span-->
             </div><!--/row-->
 
-<?php include('footer.php'); ?>
+<?php get_footer(); ?>

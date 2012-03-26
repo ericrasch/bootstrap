@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Bootstrap, from Twitter</title>
+        <title><?php wp_title('',true,''); ?></title>
 
-        <?php include('header-metadata.php'); ?>
+        <?php get_template_part( 'header', 'metadata' ); // loads the METAdata for the website including the stylesheets (header-metadata.php) ?>
 
     </head>
 

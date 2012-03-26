@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php get_header(); ?>
 
         <?php include('nav-navbar.php'); ?>
 
@@ -30,4 +30,4 @@
                 </div><!-- /.span4 -->
             </div><!-- /.row -->
 
-<?php include('footer.php'); ?>
+<?php get_footer(); ?>

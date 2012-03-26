@@ -1,5 +1,7 @@
-<ul class="nav">
-    <li class="active"><a href="index.php">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-</ul>
+<?php wp_nav_menu( array(
+    'theme_location' => 'header_primary',
+    'container'       => false,
+    'menu_class'      => 'nav',
+    'menu_id'         => ''
+    )
+); ?>
