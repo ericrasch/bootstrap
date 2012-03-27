@@ -8,7 +8,7 @@
 
         <?php wp_footer(); ?>
 
-        <?php include_once('footer-scripts.php'); ?>
+        <?php include (TEMPLATEPATH . '/footer-scripts.php'); ?>
 
     </body>
 </html>

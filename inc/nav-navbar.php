@@ -8,8 +8,8 @@
             </a>
             <a class="brand" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
             <div class="nav-collapse">
-                <?php include('nav-main.php'); ?>
-                <?php include('nav-template.php'); ?>
+                <?php include (TEMPLATEPATH . '/inc/nav-main.php'); ?>
+                <?php include (TEMPLATEPATH . '/inc/nav-template.php'); ?>
             </div><!--/.nav-collapse -->
         </div><!-- /.container -->
     </div><!-- /.navbar-inner -->

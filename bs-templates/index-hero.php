@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <?php include('nav-navbar.php'); ?>
+        <?php include (TEMPLATEPATH . '/inc/nav-navbar.php'); ?>
 
         <div class="container">
 

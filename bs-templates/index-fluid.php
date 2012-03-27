@@ -10,8 +10,8 @@
                     </a>
                     <a class="brand" href="#">Project name</a>
                     <div class="nav-collapse">
-                        <?php include('nav-main.php'); ?>
-                        <?php include('nav-template.php'); ?>
+                        <?php include (TEMPLATEPATH . '/inc/nav-main.php'); ?>
+                        <?php include (TEMPLATEPATH . '/inc/nav-template.php'); ?>
                         <p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>
                     </div><!--/.nav-collapse -->
                 </div>
